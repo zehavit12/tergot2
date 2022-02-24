@@ -10,13 +10,13 @@ resource "aws_s3_bucket" "data2" {
     Name        = "${local.resource_prefix.value}-data"
     Environment = local.resource_prefix.value
     }, {
-    git_commit           = "d68d2897add9bc2203a5ed0632a5cdd8ff8cefb0"
+    git_commit           = "87712a7bebd43739a445f140108eee4328997f36"
     git_file             = "terraform/aws/s3.tf"
-    git_last_modified_at = "2020-06-16 14:46:24"
-    git_last_modified_by = "nimrodkor@gmail.com"
-    git_modifiers        = "nimrodkor"
-    git_org              = "bridgecrewio"
-    git_repo             = "terragoat"
+    git_last_modified_at = "2022-01-31 13:19:28"
+    git_last_modified_by = "95243588+zehavit12@users.noreply.github.com"
+    git_modifiers        = "95243588+zehavit12/nimrodkor"
+    git_org              = "zehavit12"
+    git_repo             = "tergot2"
     yor_trace            = "0874007d-903a-4b4c-945f-c9c233e13243"
   })
 }
@@ -32,13 +32,13 @@ resource "aws_s3_bucket" "data4" {
     Name        = "${local.resource_prefix.value}-data"
     Environment = local.resource_prefix.value
     }, {
-    git_commit           = "d68d2897add9bc2203a5ed0632a5cdd8ff8cefb0"
+    git_commit           = "a3a06328bd94395059b91fd564795651c6db76f9"
     git_file             = "terraform/aws/s3.tf"
-    git_last_modified_at = "2020-06-16 14:46:24"
-    git_last_modified_by = "nimrodkor@gmail.com"
-    git_modifiers        = "nimrodkor"
-    git_org              = "bridgecrewio"
-    git_repo             = "terragoat"
+    git_last_modified_at = "2022-01-31 13:16:26"
+    git_last_modified_by = "95243588+zehavit12@users.noreply.github.com"
+    git_modifiers        = "95243588+zehavit12"
+    git_org              = "zehavit12"
+    git_repo             = "tergot2"
     yor_trace            = "0874007d-903a-4b4c-945f-c9c233e13243"
   })
   server_side_encryption_configuration {
