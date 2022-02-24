@@ -53,13 +53,13 @@ EOF
   tags = merge({
     Name = "${local.resource_prefix.value}-ec2"
     }, {
-    git_commit           = "d68d2897add9bc2203a5ed0632a5cdd8ff8cefb0"
+    git_commit           = "906b98957056861970c6f4fce678d98bd8c025c6"
     git_file             = "terraform/aws/ec2.tf"
-    git_last_modified_at = "2020-06-16 14:46:24"
-    git_last_modified_by = "nimrodkor@gmail.com"
-    git_modifiers        = "nimrodkor"
-    git_org              = "bridgecrewio"
-    git_repo             = "terragoat"
+    git_last_modified_at = "2022-01-31 13:40:42"
+    git_last_modified_by = "95243588+zehavit12@users.noreply.github.com"
+    git_modifiers        = "95243588+zehavit12"
+    git_org              = "zehavit12"
+    git_repo             = "tergot2"
     yor_trace            = "347af3cd-4f70-4632-aca3-4d5e30ffc0b6"
   })
 }
